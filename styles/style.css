@@ -4,3 +4,16 @@
 .rating-star{
     width: 20px;
 }
+
+@media screen and (max-width:688px) {
+    .footer-copyright-pc{
+        display: none;
+    }
+      
+}
+@media screen and (min-width:689px) {
+    .footer-copyright-mobile{
+        display: none;
+    }
+      
+}
